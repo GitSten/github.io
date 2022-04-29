@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bear</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="style_bear.css">
+</head>
+<body>
+
+ <div class="container" style="text-align: center; margin-top: 5em;">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg/220px-Ours_brun_parcanimalierpyrenees_1.jpg"
+          id="getImage"
+          alt="This supposed to be a bear" style="border-radius: 60%; width: 300px; height: 300px;"
+          onclick="enlargeImg()"
+
+        />
+        <br>
+        <input type="button" onclick="imagefun2()" value="&#11013">
+        <input type="button" onclick="imagefun2()" value="&#10145">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="resetImg()">&#10134</button>
+
+
+
+
+    </div>
+
+<h1>Bear</h1>
+<div class="animal_description">
+
+    <p>
+        Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans.
+        Although only eight species of bears are extant, they are widespread, appearing in a wide variety of habitats
+        throughout the Northern Hemisphere and partially in the Southern Hemisphere. Bears are found on the continents
+        of North America, South America, Europe, and Asia. Common characteristics of modern bears include large bodies
+        with stocky legs, long snouts, small rounded ears, shaggy hair, plantigrade paws with five nonretractile claws,
+        and short tails.
+
+        While the polar bear is mostly carnivorous, and the giant panda feeds almost entirely on bamboo, the remaining
+        six species are omnivorous with varied diets. With the exception of courting individuals and mothers with their
+        young, bears are typically solitary animals. They may be diurnal or nocturnal and have an excellent sense of
+        smell. Despite their heavy build and awkward gait, they are adept runners, climbers, and swimmers. Bears use
+        shelters, such as caves and logs, as their dens; most species occupy their dens during the winter for a long
+        period of hibernation, up to 100 days.
+
+        Bears have been hunted since prehistoric times for their meat and fur; they have been used for bear-baiting and
+        other forms of entertainment, such as being made to dance. With their powerful physical presence, they play a
+        prominent role in the arts, mythology, and other cultural aspects of various human societies. In modern times,
+        bears have come under pressure through encroachment on their habitats and illegal trade in bear parts, including
+        the Asian bile bear market. The IUCN lists six bear species as vulnerable or endangered, and even least concern
+        species, such as the brown bear, are at risk of extirpation in certain countries. The poaching and international
+        trade of these most threatened populations are prohibited, but still ongoing.
+        <br>
+        <br>
+        <br>
+    </p>
+    <br>
+
+    <iframe width="700" height="360" src="https://www.youtube.com/embed/BautSf1oo-I">
+    </iframe>
+    <br>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Bear">
+        <button type="button" class="btn btn-primary btn-lg">Click here to learn more about bears</button>
+    </a>
+</div>
+
+<br>
+<br>
+<div class="table">
+    <table id="example" class="table table-striped table bordered">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Species</th>
+            <th>Geographic location</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Brown_bear_%28Ursus_arctos%29%2C_Viiksimo%2C_Kainuu_region%2C_Finland_%2829058988558%29.jpg/220px-Brown_bear_%28Ursus_arctos%29%2C_Viiksimo%2C_Kainuu_region%2C_Finland_%2829058988558%29.jpg">
+            <td>Brown bear</td>
+            <td>The brown bear (Ursus arctos) is a large bear species found across Eurasia and North America
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Grizzly_Pair_at_the_Cleveland_Zoo.jpg/220px-Grizzly_Pair_at_the_Cleveland_Zoo.jpg">
+            <td>Grizzly bear</td>
+            <td>The grizzly bear (Ursus arctos horribilis), also known as the North American brown bear or simply
+                grizzly, is a population or subspecies[1] of the brown bear inhabiting North America
+            </td>
+        </tr>
+        <tr>
+            <td><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/220px-Polar_Bear_-_Alaska_%28cropped%29.jpg">
+            <td>Polar bear</td>
+            <td>The polar bear (Ursus maritimus) is a hypercarnivorous bear whose native range lies largely within the
+                Arctic Circle, encompassing the Arctic Ocean, its surrounding seas and surrounding land masses.
+            </td>
+        </tbody>
+    </table>
+</div>
+
+<br>
+<br>
+<br>
+<li><a href="index.html">Back to homepage </a></li>
+
+<script src="func.js"></script>
+
+</body>
+</html>

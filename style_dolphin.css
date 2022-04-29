@@ -1,0 +1,41 @@
+body{
+     background-color: #1BACAC  ;
+}
+
+
+h1 {
+    color:black;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+
+#second:paragraph{
+    border.style:solid;
+}
+
+.animal_description{
+    border-style: dotted;
+    paddig: 30px;
+}
+
+h2 {
+    color: black
+}

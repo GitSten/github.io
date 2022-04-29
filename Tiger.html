@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tigers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="style_tiger.css">
+</head>
+<body>
+
+ <div class="container" style="text-align: center; margin-top: 5em;">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tiger_in_the_water.jpg/220px-Tiger_in_the_water.jpg"
+          id="getImage"
+          alt="This supposed to be a pigeon" style="border-radius: 60%; width: 300px; height: 300px;"
+          onclick="enlargeImg()"
+
+        />
+        <br>
+        <input type="button" onclick="imagefun7()" value="&#11013">
+        <input type="button" onclick="imagefun7()" value="&#10145">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="resetImg()">&#10134</button>
+
+      </div>
+
+<h2>Tiger</h2>
+<div class="animal_description">
+
+    <p>
+        The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most
+        recognisable for its dark vertical stripes on orange fur with a white underside. An apex predator, it primarily
+        preys on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator,
+        requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its
+        offspring. Tiger cubs stay with their mother for about two years, then become independent and leave their
+        mother's home range to establish their own.
+        <br>
+        <br>
+        <br>
+    </p>
+    <br>
+
+    <iframe width="700" height="360" src="https://www.youtube.com/embed/FK3dav4bA4s"></iframe>
+    <br>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Tiger">
+        <button type="button" class="btn btn-primary btn-lg">Click here to learn more about Tigers</button>
+    </a>
+</div>
+
+<br>
+<br>
+<div class="table">
+    <table id="example" class="table table-striped table bordered">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Species</th>
+            <th>Geographic location</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tiger_in_Ranthambhore.jpg/220px-Tiger_in_Ranthambhore.jpg">
+            <td>Bengal tiger</td>
+            <td> India, Bangladesh, Nepal, Bhutan and southern Tibet.
+            </td>
+        </tr>
+        <tr>
+            <td><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Siberian_Tiger_sf.jpg/220px-Siberian_Tiger_sf.jpg">
+            <td>Siberian tiger</td>
+            <td>Temminck's description was based on an unspecified number of tiger skins with long hairs and dense coats
+                that were traded between Korea and Japan. He assumed they originated in the Altai Mountains.[22] The
+                Siberian tiger was later described as having pale coats with few dark brown stripes.
+            </td>
+        </tr>
+        <tr>
+            <td><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/2012_Suedchinesischer_Tiger.JPG/220px-2012_Suedchinesischer_Tiger.JPG">
+            <td>South China tiger</td>
+            <td>The population mainly inhabited the Fujian, Guangdong, Hunan and Jiangxi provinces. It has been listed
+                as Critically Endangered on the IUCN Red List since 1996 and is possibly extinct in the wild since no
+                wild individual has been recorded since the late 1980s
+            </td>
+        </tbody>
+    </table>
+</div>
+
+<br>
+<br>
+<br>
+<li><a href="index.html">Back to homepage </a></li>
+
+<script src="func.js"></script>
+</body>
+</html>
