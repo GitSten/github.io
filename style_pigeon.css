@@ -39,3 +39,11 @@ p{
 h2 {
     color: black
 }
+
+
+img {
+  border: 3px solid white;
+}
+img:hover {
+  border: 3px solid grey ;
+}
